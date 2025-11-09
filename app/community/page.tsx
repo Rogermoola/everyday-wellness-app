@@ -1,10 +1,10 @@
 import { MobileNav } from "@/components/mobile-nav"
-import { HomeDashboard } from "@/components/home-dashboard"
+import { CommunityChallenges } from "@/components/community-challenges"
 
-export default function HomePage() {
+export default function CommunityPage() {
   return (
     <main className="min-h-screen pb-20">
-      <HomeDashboard />
+      <CommunityChallenges />
       <MobileNav />
     </main>
   )

@@ -1,10 +1,10 @@
 import { MobileNav } from "@/components/mobile-nav"
-import { HomeDashboard } from "@/components/home-dashboard"
+import { FoodLogging } from "@/components/food-logging"
 
-export default function HomePage() {
+export default function LogPage() {
   return (
     <main className="min-h-screen pb-20">
-      <HomeDashboard />
+      <FoodLogging />
       <MobileNav />
     </main>
   )
